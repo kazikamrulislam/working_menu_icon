@@ -1,3 +1,27 @@
-div {
-    
+
+.container{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sti1, .sti2, .sti3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.che .sti1 {
+    -webkit-transform: rotate(-45deg) translate(-8px, 8px);
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.che .sti2 {
+    opacity: 0;
+}
+
+.che .sti3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -7px);
 }
